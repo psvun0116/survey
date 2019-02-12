@@ -10,6 +10,8 @@ $(document).ready(function() {
     $(".music").text(locationInput);
     $(".born").text(bornInput);
 
+    var favoriteColor = $("#color").val();
+
     var ethnicity = $("#ethnicity").val();
 
     var status = $("input:radio[name=status]:checked").val();
